@@ -79,7 +79,7 @@ Babel est un compilateur JavaScript, plus précisément un compilateur de code s
 
 ## <a id="toc-asts"></a>ASTs
 
-Chacune de ces étapes implique la création ou le travaille avec une [Arbre de syntaxe abstraite](https://en.wikipedia.org/wiki/Abstract_syntax_tree) ou AST.
+Chacune de ces étapes implique la création ou le travaille avec un [Arbre de syntaxe abstraite](https://en.wikipedia.org/wiki/Abstract_syntax_tree) ou AST.
 
 > Babel utilise un AST modifiée [ESTree](https://github.com/estree/estree), avec la base technique trouvée [ici](https://github.com/babel/babel/blob/master/doc/ast/spec.md).
 
