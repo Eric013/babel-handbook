@@ -81,7 +81,7 @@ Babel est un compilateur JavaScript, plus précisément un compilateur de code s
 
 Chacune de ces étapes implique la création ou le travaille avec une [Arbre de syntaxe abstraite](https://en.wikipedia.org/wiki/Abstract_syntax_tree) ou AST.
 
-> Babel utilise un AST modifiée [ESTree](https://github.com/estree/estree), avec la base technique trouvée [ici](https://github.com/babel/babel/blob/master/doc/ast/spec.md).
+> Babel utilise un AST modifié [ESTree](https://github.com/estree/estree), avec la base technique trouvée [ici](https://github.com/babel/babel/blob/master/doc/ast/spec.md).
 
 ```js
 function square(n) {
@@ -179,7 +179,7 @@ Vous remarquerez que chaque niveau de l'AST a une structure similaire :
 
 > Remarque : Certaines propriétés ont été supprimées par souci de simplicité.
 
-Chacun de ces paramètre est connu sous le nom d'un **Nœud**. L'AST peut être composé d'un seul nœud, de centaines ou même de milliers de nœuds. Ensemble, ils sont capables de décrire la syntaxe d'un programme qui peut être utilisé pour l'analyse statique.
+Chacun de ces paramètre sont connus sous le nom d'un **Nœud**. L'AST peut être composé d'un seul nœud, de centaines ou même de milliers de nœuds. Ensemble, ils sont capables de décrire la syntaxe d'un programme qui peut être utilisé pour l'analyse statique.
 
 Chaque Nœud a cette interface :
 
